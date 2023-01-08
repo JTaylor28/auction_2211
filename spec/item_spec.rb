@@ -8,6 +8,10 @@ RSpec.describe Item do
         Item.new('Chalkware Piggy Bank')
     end
 
+    let(:item2) do 
+        Item.new("Bamboo Picture Frame")
+    end
+
     describe"#initialize" do 
         it"exsits" do
             expect(item1).to be_an_instance_of(Item)
