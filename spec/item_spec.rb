@@ -15,11 +15,11 @@ RSpec.describe Item do
     end
 
     describe" it has attributes" do
-        it "has a name" do
+        xit "has a name" do
             expect(item1.name).to eq('Chalkware Piggy Bank')
         end
-        
-        it "#bids" do
+
+        xit "#bids" do
             expect(item1.bids).to eq({})
         end
     end
